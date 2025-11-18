@@ -1,5 +1,48 @@
-*.vsidx
+# --- Visual Studio ---
 .vs/
-.idea/
 *.user
+*.suo
+*.vcxproj.user
+*.filters
+*.aps
+*.ncb
+*.opendb
+*.VC.db
+*.vsidx
+*.pdb
+
+# --- CMake ---
+CMakeFiles/
+CMakeCache.txt
+cmake_install.cmake
+Makefile
+
+# --- Build output directories ---
+build/
+out/
+bin/
+Debug/
+Release/
+x64/
+x86/
+
+# --- Executables / binaries ---
+*.exe
+*.dll
+*.lib
+*.obj
+*.o
+*.a
+*.so
+*.dylib
+
+# --- IDE junk ---
+.idea/
 *.cache
+*.log
+
+# --- Other ---
+*.ipch
+*.tlog
+*.lastcodeanalysissucceeded
+*.pyc
